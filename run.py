@@ -36,9 +36,4 @@ def renameFiles(ID):
 				os.rename(filename, (shot_time + ID + ".CR2"))
 				print("Renamed the CR2")
 
-gp(clearCommand)
-createSaveFolder()
 captureImages()
-renameFiles()
-
-
