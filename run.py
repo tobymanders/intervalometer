@@ -1,6 +1,6 @@
 
 from sh import gphoto2 as gp
-import sleep
+from time import sleep
 
 def captureImages():
 	gp(["--trigger-capture"])
